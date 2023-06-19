@@ -1,4 +1,0 @@
-{
-    "appService.defaultWebAppToDeploy": "/subscriptions/be824841-3b9b-4d93-b0f7-e82f42d711c0/resourceGroups/cafeactivity_group/providers/Microsoft.Web/sites/cafeactivity",
-    "appService.deploySubpath": "."
-}
