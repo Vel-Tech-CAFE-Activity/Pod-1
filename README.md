@@ -5,7 +5,7 @@ This is a reusable component for Azure AD authentication developed using nodeJS 
 
 ## Documentation
 
-[Documentation](https://docs.google.com/document/d/12k7xoe7LORIl7HmC9j2hIc9f4CzzIcvQ/edit?usp=sharing&ouid=115379737777691626063&rtpof=true&sd=true) can find the Documentation here
+[Find the Documentation here](https://docs.google.com/document/d/12k7xoe7LORIl7HmC9j2hIc9f4CzzIcvQ/edit?usp=sharing&ouid=115379737777691626063&rtpof=true&sd=true)
 
 
 ## Instructions to use
