@@ -1,0 +1,13 @@
+<body style="background-color: black; color:aliceblue; margin: 20%; ">
+  
+  <h1 style="color: #747474; text-align: center;" ><%= title %></h1>
+
+<% if (isAuthenticated) { %>
+  <p>Hi <%= username %>!</p>
+  <br>
+  <a href="/auth/signout">Sign out</a>
+<% } else { %>
+  <p style="text-align: center;">Welcome to <%= title %></p>
+  <center> <a style="background-color: D24A06; padding-left: 10px; padding-right: 10px; padding-top: 3px; padding-bottom: 3px; text-decoration: none; border-radius: 5px; font-size: x-large; color: white; " href="/auth/signin">Sign in</a></center>
+<% } %>
+</body>
