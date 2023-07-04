@@ -1,13 +1,9 @@
-var express = require('express');
-var router = express.Router();
-var { GRAPH_ME_ENDPOINT } = require('../AzureAuthcomp/authConfig');
+const express = require('express');
+const router = express.Router();
 
-function isAuthenticated(req, res, next) {
-    if (!req.session.isAuthenticated) {
-        return res.redirect('/auth/signin'); 
-    }
-
-    next();
-};
+/* GET users listing. */
+router.get('/', function(req, res, next) {
+  res.send('respond with a resource');
+});
 
 module.exports = router;

@@ -1,13 +1,43 @@
-<body style="background-color: black; color:aliceblue; margin: 20%; ">
-  
-  <h1 style="color: #747474; text-align: center;" ><%= title %></h1>
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Login Example</title>
+   <style>
+        .container{
+          width: 25%;
+          height: 200px;
+          background-color:  #e3f6f5;
+          margin: 10%;
+          margin-left: 30%;
+          border-radius: 15px;
+          padding: 5%;
+          padding-left: 16%;
+          align-items: center;
+          justify-content: center;
+        }
+        button{
+          padding: 10px 15px;
+          margin-top: 5%;
+          background-color: aliceblue;
+          border-radius: 10px;
+          margin-left: 10%;
+        }
+        a{
+          text-decoration: none;
+          font-weight: 900;
+          color: black;
+        }
+   </style>
+</head>
+<body style="background-color: #bae8e8;">
+  <div class="container">
+    <h1>Hello User</h1>
+    <p>Login with Azure AD</p>
+    <button> <a href="/login">Login</a></button>
+ 
 
-<% if (isAuthenticated) { %>
-  <p>Hi <%= username %>!</p>
-  <br>
-  <a href="/auth/signout">Sign out</a>
-<% } else { %>
-  <p style="text-align: center;">Welcome to <%= title %></p>
-  <center> <a style="background-color: D24A06; padding-left: 10px; padding-right: 10px; padding-top: 3px; padding-bottom: 3px; text-decoration: none; border-radius: 5px; font-size: x-large; color: white; " href="/auth/signin">Sign in</a></center>
-<% } %>
+  </div>
+  
 </body>
+</html>
