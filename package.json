@@ -1,26 +1,25 @@
 {
-  "name": "ctc",
+  "name": "final-try",
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node ./bin/www"
+    "start": "node ./bin/www",
+    "test": "jest"
   },
   "dependencies": {
     "@azure/msal-node": "^1.17.3",
     "axios": "^1.4.0",
     "cookie-parser": "~1.4.4",
     "debug": "~2.6.9",
-    "dotenv": "^16.3.0",
+    "dotenv": "^16.3.1",
     "ejs": "^3.1.9",
     "express": "~4.16.1",
-    "express-ejs-layouts": "^2.5.1",
     "express-session": "^1.17.3",
-    "hbs": "^4.2.0",
     "http-errors": "~1.6.3",
     "jade": "~1.11.0",
-    "morgan": "~1.9.1"
-  },
-  "devDependencies": {
-    "ejs-lint": "^2.0.0"
+    "jest": "^29.5.0",
+    "morgan": "~1.9.1",
+    "msal": "^1.4.18",
+    "nodemon": "^2.0.22"
   }
 }

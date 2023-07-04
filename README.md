@@ -30,3 +30,4 @@ Step 3 : Should import the AzureAuthcomp folder and authConfig.js and authProvid
 Step 4 : Then by importing the authProvider file, login, logout and getAccessToken functions can be implemented in the application
 
 Step 5 : By assigning msal instance to a variable , the developer using this component should be able to get user data
+

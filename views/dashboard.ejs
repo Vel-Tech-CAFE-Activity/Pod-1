@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Dashboard Example</title>
+  <style>
+    .container{
+      width: 25%;
+      height: 200px;
+      background-color:  #e3f6f5;
+      margin: 10%;
+      margin-left: 30%;
+      border-radius: 15px;
+      padding: 5%;
+      padding-left: 10%;
+      align-items: center;
+      justify-content: center;
+    }
+    button{
+      padding: 10px 15px;
+      margin-top: 5%;
+      background-color: aliceblue;
+      border-radius: 10px;
+      margin-left: 10%;
+    }
+    a{
+      text-decoration: none;
+      font-weight: 900;
+      color: black;
+    }
+</style>
+</head>
+<body>
+  <div class="container">
+    <h1>Hello,</h1>
+    <h2> <%= name %></h2>
+    
+    <button onclick="showUserDetails()">Show User Details</button>
+    <button><a href="/logout">Logout</a></button>
+    
+  </div>
+  
+
+  
+  <p id="accessToken" style="display: none;"> Access token is <%= accessToken %></p>
+
+
+  <script>
+    function showUserDetails() {
+      const name = "<%= name %>";
+      const email = "<%= email %>";
+      const accessToken = "<%= accessToken %>";
+
+      const message = `Name: ${name}\nEmail: ${email}\nAccess Token: ${accessToken}`;
+      alert(message);
+    }
+  </script>
+
+ 
+  
+
+
+
+</body>
+</html>
